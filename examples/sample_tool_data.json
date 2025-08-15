@@ -1,0 +1,15 @@
+{
+  "test_cases": [
+    {
+      "id": "TC003",
+      "name": "Search Function",
+      "description": "Check search feature",
+      "tags": ["search", "regression"],
+      "type": "regression",
+      "steps": [
+        {"action": "enter_text", "target": "searchbox", "value": "query", "expected_result": "results shown"},
+        {"action": "click", "target": "search_button", "expected_result": "results refreshed"}
+      ]
+    }
+  ]
+}

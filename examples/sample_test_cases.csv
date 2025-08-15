@@ -1,0 +1,4 @@
+TestCaseID,TestCaseName,Description,Action,Target,Value,ExpectedResult,Tags,Type
+TC001,Login Test,Check login form,enter_text,username,user1,success,"login,ui",functional
+TC001,Login Test,Check login form,enter_text,password,pass123,success,"login,ui",functional
+TC001,Login Test,Check login form,click,submit,,Dashboard visible,"login,ui",functional
